@@ -42,9 +42,8 @@ A blazingly fast CLI tool helping with to-do lists.
 
   - `--id, -i`: Specify a task ID
 
-- `edit`: Update a task metadata using TUI if no options, using FZF if no ID
+- `edit [ID]`: Update a task metadata using TUI if no options, using FZF if no ID
 
-  - `--id, -i`: Specify a task ID
   - `--status, -s [TODO, DOING, DONE]`: Modify the status
   - `--creation-date, -cd`: Modify the creation date
   - `--done-date, -fd`: Modify the done date
